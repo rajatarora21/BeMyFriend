@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7d8e1c2-9d74-4e60-ac35-b321439c2fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/Invalid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Valid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/packages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/single-blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Invalid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Valid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/details.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,10 +38,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/login/static" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/login/static" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
@@ -88,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569640406886</updated>
       <workItem from="1569640422117" duration="570000" />
-      <workItem from="1570232591632" duration="7399000" />
+      <workItem from="1570232591632" duration="8294000" />
     </task>
     <servers />
   </component>
