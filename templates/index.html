@@ -110,22 +110,7 @@
 						<h1>Happy Wedding</h1>
 						<p>Find your most ideal partner through our website</p>
 					</div>
-					<form action="url5" method="get">
-						<div class="formOnImage">
-							<h1 class="text-center">LOGIN</h1>
-							<div class="form-group">
-								<label>UserName</label>
-								<input type="text" name='l1' placeholder="Enter Your UserName" class="form-control">
-							</div>
-							<div class="form-group">
-								<label>PassWord</label>
-								<input type="password" name='l2' placeholder="Enter Password" class="form-control"> 
-							</div>
-							<div class="form-group">
-								<input type="submit" value="Log In" class="btn btn-danger" > 
-							</div>
-						</div>
-					</form>
+
 				</div>
 				
 			<div class="item">
@@ -134,6 +119,7 @@
 						<h1>Happy Wedding</h1>
 						<p>Find your most ideal partner through our website</p>
 				</div>
+
 				<form action="url5" method="get">
 						<div class="formOnImage">
 							<h1 class="text-center">LOGIN</h1>
@@ -177,6 +163,13 @@
 		</div>
 	</div>
 	<div id="section2" class="container-fluid">
+        <form action="passwordCheck" method="post">
+                        {% csrf_token %}
+                    <input type="text" name='name' placeholder="Enter Your UserName" class="form-control">
+                    <input type="password" name='password' placeholder="Enter Password" class="form-control">
+                    <input type="submit" value="Log In" class="btn btn-danger" >
+
+					</form>
 			<form action="details" method="post">
                 {% csrf_token %}
 		  <div class="container">

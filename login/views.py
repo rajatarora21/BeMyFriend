@@ -20,3 +20,10 @@ def details(request):
         'gender':gender,
     }
     return render(request,'details.html',data)
+def passwordCheck(request):
+    name=request.POST['name']
+    password=request.POST['password']
+    if name=='Rajat' and password=="1234":
+        return render(request,'Valid.html')
+    else:
+        return render(request,'Invalid.html')
