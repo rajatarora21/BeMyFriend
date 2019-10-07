@@ -177,7 +177,8 @@
 		</div>
 	</div>
 	<div id="section2" class="container-fluid">
-			<form action="url1" method="get">
+			<form action="details" method="post">
+                {% csrf_token %}
 		  <div class="container">
 			<div class="row-md-4">
 				<div class="form-group">

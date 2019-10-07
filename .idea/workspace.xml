@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d7d8e1c2-9d74-4e60-ac35-b321439c2fa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeMyFriend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeMyFriend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -24,6 +27,7 @@
   <component name="ProjectId" id="1RRqlOLogDchQLs5tYGK9iqzUtj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
@@ -82,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569640406886</updated>
       <workItem from="1569640422117" duration="570000" />
-      <workItem from="1570232591632" duration="2507000" />
+      <workItem from="1570232591632" duration="3420000" />
     </task>
     <servers />
   </component>
