@@ -27,3 +27,6 @@ def passwordCheck(request):
         return render(request,'Valid.html')
     else:
         return render(request,'Invalid.html')
+
+def chatBot(request):
+    return render(request,'contact.html')
