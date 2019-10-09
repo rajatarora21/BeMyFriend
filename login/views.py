@@ -1,5 +1,6 @@
 from django.shortcuts import render
-
+from chatterbot import ChatBot
+from chatterbot.trainers import ChatterBotCorpusTrainer
 # Create your views here.
 def index(request):
     return render(request,'index.html')
@@ -29,4 +30,7 @@ def passwordCheck(request):
         return render(request,'Invalid.html')
 
 def chatBot(request):
+    bot =ChatBot('ChatBot',storage_adapter='chatterbot.storage.SQLStorageAdapter')
+    trainer =ChatterBotCorpusTrainer(bot)
+    trainer.train('chatterbot.corpus.english')
     return render(request,'contact.html')
