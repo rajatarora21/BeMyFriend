@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d7d8e1c2-9d74-4e60-ac35-b321439c2fa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeMyFriend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeMyFriend/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1569640406886</updated>
       <workItem from="1569640422117" duration="570000" />
-      <workItem from="1570232591632" duration="16362000" />
+      <workItem from="1570232591632" duration="16947000" />
+      <workItem from="1570664866131" duration="1207000" />
     </task>
     <servers />
   </component>
@@ -103,7 +105,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

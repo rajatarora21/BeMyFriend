@@ -33,4 +33,4 @@ def chatBot(request):
     bot =ChatBot('ChatBot',storage_adapter='chatterbot.storage.SQLStorageAdapter')
     trainer =ChatterBotCorpusTrainer(bot)
     trainer.train('chatterbot.corpus.english')
-    return render(request,'contact.html')
+    return render(request,'chatbot.html')
